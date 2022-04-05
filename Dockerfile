@@ -1,12 +1,24 @@
-# Tags: latest, 0.20220314.0-debian-10-r19, 0.20220314.0, 0-debian-10, 0
+# Tags: latest, 0.20220314.0-debian-10-r23, 0.20220314.0, 0-debian-10, 0
 FROM bitnami/airflow-exporter:latest
-FROM bitnami/airflow-exporter:0.20220314.0-debian-10-r19
+FROM bitnami/airflow-exporter:0.20220314.0-debian-10-r23
 FROM bitnami/airflow-exporter:0.20220314.0
 FROM bitnami/airflow-exporter:0-debian-10
 FROM bitnami/airflow-exporter:0
 
 # Tags: _
 FROM bitnami/airflow-exporter:_
+
+# Tags: 0.20220314.0-debian-10-r22
+FROM bitnami/airflow-exporter:0.20220314.0-debian-10-r22
+
+# Tags: 0.20220314.0-debian-10-r21
+FROM bitnami/airflow-exporter:0.20220314.0-debian-10-r21
+
+# Tags: 0.20220314.0-debian-10-r20
+FROM bitnami/airflow-exporter:0.20220314.0-debian-10-r20
+
+# Tags: 0.20220314.0-debian-10-r19
+FROM bitnami/airflow-exporter:0.20220314.0-debian-10-r19
 
 # Tags: 0.20220314.0-debian-10-r18
 FROM bitnami/airflow-exporter:0.20220314.0-debian-10-r18
@@ -83,18 +95,3 @@ FROM bitnami/airflow-exporter:0.20220215.0-debian-10-r19
 
 # Tags: 0.20220215.0-debian-10-r18
 FROM bitnami/airflow-exporter:0.20220215.0-debian-10-r18
-
-# Tags: 0.20220215.0-debian-10-r17
-FROM bitnami/airflow-exporter:0.20220215.0-debian-10-r17
-
-# Tags: 0.20220215.0-debian-10-r16
-FROM bitnami/airflow-exporter:0.20220215.0-debian-10-r16
-
-# Tags: 0.20220215.0-debian-10-r15
-FROM bitnami/airflow-exporter:0.20220215.0-debian-10-r15
-
-# Tags: 0.20220215.0-debian-10-r14
-FROM bitnami/airflow-exporter:0.20220215.0-debian-10-r14
-
-# Tags: 0.20220215.0-debian-10-r13
-FROM bitnami/airflow-exporter:0.20220215.0-debian-10-r13
